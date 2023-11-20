@@ -9,6 +9,8 @@
 @property (nonatomic, copy) NSString *interactiveCallbackId;
 
 - (void)initEventStoreWithCalendarCapabilities;
+- (void)initEventStoreWithFullCalendarCapabilities;
+- (void)initEventStoreWithWriteCalendarCapabilities;
 
 -(NSArray*)findEKEventsWithTitle: (NSString *)title
                         location: (NSString *)location
